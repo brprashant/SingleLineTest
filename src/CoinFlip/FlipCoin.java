@@ -7,6 +7,7 @@ public class FlipCoin {
 
     public static void main(String[] args){
         Coin coin=new Coin();
+        System.out.println("Starting coin side : " + coin.getSide());
         int headCount =0, tailCount =0;
         for(int i=0;i<100;i++) {
             final SIDE side = coin.tossCoin();

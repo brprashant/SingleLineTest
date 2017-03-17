@@ -6,7 +6,7 @@ import java.util.ArrayList;
 public class Calc {
 
     public static void main(String[] args){
-        System.out.println("the result of 7 / 2 is " + 1/2);
+        System.out.println("the result of 7 / 2 is " + 7/2);
 
         testPassingNull(1,2);
         System.out.println(testNullForString(null) ? "true" : " false" );

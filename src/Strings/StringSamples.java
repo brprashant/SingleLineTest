@@ -51,9 +51,9 @@ public class StringSamples {
         char[] characters = something.toCharArray();
         if (characters.length > 256) return false;
         int charCheck[] = new int[256];
-        for(int i = 0;i<characters.length;i++){
-            if (charCheck[characters[i]] > 0) return false;
-            charCheck[characters[i]]++;
+        for (char character : characters) {
+            if (charCheck[character] > 0) return false;
+            charCheck[character]++;
         }
         return true;
     }
