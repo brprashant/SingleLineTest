@@ -53,6 +53,8 @@ public class Sol implements Cloneable, Serializable{
 
         });
 
+//        throw new IllegalStateException();
+
 
         pqst.add("abcd");
         pqst.add("efgh");
@@ -65,8 +67,6 @@ public class Sol implements Cloneable, Serializable{
         pqst.add("abcdefgh");
         System.out.println(pqst.size());
         System.out.println(pqst.poll());
-
-
 
 
 
